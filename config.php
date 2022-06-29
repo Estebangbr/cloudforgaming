@@ -1,7 +1,7 @@
 <?php
     try
     {
-        $bdd = new PDO("mysql:host=c4g-database:3306;dbname=cloudforgaming;charset=utf8", "admin", "ESGIProjet123!");
+        $bdd = new PDO("mysql:host=localhost;dbname=cloudforgaming;charset=utf8", "root", "");
     }
     catch(PDOException $e)
     {
